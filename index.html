@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,700&family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ToDo list</title>
+    </head>
+    <body >
+        <div class="main-container">
+            <div class="top">
+                <div id="list-title">My To Do List</div>
+                <div class="input-task">
+                    <input type="text" id="input" placeholder="What shoud I do...">
+                    <button id="add">Add</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="added-items">
+                    <ul class="all"></ul>
+                    <ul class="completed"></ul>
+                    <ul class="active"></ul>
+                </div>
+                <div id="filter-buttons">
+                    <button id="all">All</button>
+                    <button id="completed">Completed</button>
+                    <button id="active">Active</button>
+                </div>
+            </div>
+        </div>
+        <script src="./jsSupport/JSsupport.js"></script>
+    </body>
+</html>
